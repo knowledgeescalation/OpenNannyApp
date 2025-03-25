@@ -1,4 +1,4 @@
-**OpenNannyApp** is an Android application designed to connect with and control a baby monitoring system. The app provides a user-friendly interface to monitor environmental conditions, stream video feed, and play music through the connected monitoring device.
+**OpenNannyApp** is an Android application designed to connect with and control a [baby monitoring system](https://github.com/knowledgeescalation/OpenNannyApi). The app provides a user-friendly interface to monitor environmental conditions, stream video feed, and play music through the connected monitoring device. For full tutorial visit: https://knowledgeescalation.com/posts/open-nanny.
 
 ## Features
 
