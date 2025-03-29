@@ -1,4 +1,4 @@
-**OpenNannyApp** is an Android application designed to connect with and control a [baby monitoring system](https://github.com/knowledgeescalation/OpenNannyApi). The app provides a user-friendly interface to monitor environmental conditions, stream video feed, and play music through the connected monitoring device. For full tutorial visit: https://knowledgeescalation.com/posts/open-nanny.
+**OpenNannyApp** is an Android application designed to connect with and control a [OpenNannyApi](https://github.com/knowledgeescalation/OpenNannyApi). The app provides a user-friendly interface to monitor environmental conditions, stream video feed, and play music through the connected monitoring device. For full tutorial visit: https://knowledgeescalation.com/posts/open-nanny.
 
 ## Features
 
@@ -66,7 +66,16 @@ Architecture Pattern
 ## Setup
 
 1. Install the app on your Android device.
-2. Configure the connection settings to point to your monitoring device.
+2. Configure the connection settings to point to your monitoring device and enter authentication credentials to establish a secure connection (`app/src/main/res/values/strings.xml`).
+```xml
+<resources>
+	<string name="app_name">OpenNannyApp</string>
+	<string name="api_ip">NANNY_IP</string>
+	<string name="api_user">USER_NAME</string>
+	<string name="api_pass">USER_PASS</string>
+</resources>
+```
+4. Add Root CA certificate (`app/src/main/res/raw/ca.crt`).
 3. Enter authentication credentials to establish a secure connection.
 4. Navigate through the app to access different monitoring and control features.
 
